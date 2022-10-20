@@ -2,20 +2,14 @@
 
 ## Portfolio project No.8
 
-HTML. SCSS. REACT.
-
-Site published at: https://ievasta.github.io/crud/
+REACT. SCSS.
 
 ## Project features
 
 - Github pages;
 - create: mini crud (name the Thing, select it's color, select it's shape)
 
-## Authors
-
-Ieva: [Github](https://github.com/IevaSta)
-
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -85,3 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+Ieva: [Github](https://github.com/IevaSta)
