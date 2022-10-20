@@ -1,11 +1,15 @@
-import './App.scss';
+import "./App.scss";
+import Create from "./Components/Create";
 
 function App() {
   return (
-    <div>
-           <button className='grey'>1</button>
-      <button className='red'>1</button>
-      <button className='green'>1</button>
+    <div className="container">
+      <div className="bin">
+        <div className="box-1">
+          <Create />
+        </div>
+        <div className="box-2">2</div>
+      </div>
     </div>
   );
 }

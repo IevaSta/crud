@@ -1,0 +1,63 @@
+//pagrindiniai konteineriu aprasymai
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+
+    .bin {
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+
+
+        .box-1 {
+            width: 40%;
+            padding: 11px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .box-2 {
+            width: 60%;
+            padding: 11px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #13181e;
+    border-radius: 8px;
+
+    .top {
+        width: calc(100% - 40px);
+        padding: 20px;
+        background-color: #ffefb9;
+        font-size: 30px;
+        font-weight: 700;
+        color: #13181e;
+        letter-spacing: 2px;
+        text-align: center;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+
+    .body {
+        width: calc(100% - 40px);
+        padding: 20px;
+        color: #13181e;
+        text-align: center;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+}
